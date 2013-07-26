@@ -1,0 +1,32 @@
+#board {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  margin: 0px 1px 50px;
+}
+#nPiece {
+  display: none;
+}
+.empty,
+.black,
+.white {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: solid 1px #000;
+  background-color: #0e0;
+}
+.bPiece,
+.wPiece {
+  width: 57px;
+  height: 57px;
+  margin: 1px 0 0 1px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.bPiece {
+  background-color: #000;
+}
+.wPiece {
+  background-color: #fff;
+}
